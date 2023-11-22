@@ -28,7 +28,7 @@ let waitingTime = false;
 
 function boxBuild(color) {
   let box = document.createElement("div");
-  box.innerText = "flip ➡️";
+  box.innerText = "Click to view ➡️";
   box.classList.add("box");
   box.setAttribute("data-color", color);
   box.setAttribute("data-revealed", "false");
