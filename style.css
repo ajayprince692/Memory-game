@@ -1,8 +1,10 @@
 body {
-  background-image: radial-gradient(circle at center center, rgb(6, 242, 198),rgb(12, 102, 197));
-
+  background-image: radial-gradient(
+    circle at center center,
+    rgb(6, 242, 198),
+    rgb(12, 102, 197)
+  );
 }
-
 
 .boxes {
   margin: 50px auto;
@@ -19,12 +21,12 @@ body {
   box-shadow: -1px 3px 13px 1px rgba(231, 11, 11, 1);
   -webkit-box-shadow: -1px 3px 13px 1px rgba(231, 11, 11, 1);
   -moz-box-shadow: -1px 3px 13px 1px rgba(231, 11, 11, 1);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-style:italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
 }
-h1{
+h1 {
   color: turquoise;
   font-family: fantasy;
   margin-left: 30%;
