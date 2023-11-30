@@ -27,7 +27,13 @@ body {
   font-style: italic;
 }
 h1 {
+  background-image: radial-gradient(
+    circle at center center,
+    rgb(252, 252, 252),
+    rgb(129, 129, 129)
+  );
+  display: flex;
+  justify-content: center;
   color: rgb(13, 29, 121);
   font-family: fantasy;
-  margin-left: 30%;
 }
